@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/nNzhSKJJ/demo-app-1.webp",
+    "title": "PhotoSnap",
+    "companyName": "PixelWorks",
+    "id": 1,
+    "description": "PhotoSnap is a professional yet approachable photo-editing app designed for hobbyists and creators who want powerful results without a steep learning curve. The app includes non-destructive editing tools, one-tap filters inspired by real film stocks, advanced color correction, layered adjustments, and intuitive masking. Users can crop, straighten, remove blemishes, and perform selective edits with a brush or radial tool. PhotoSnap also offers a library sync across devices, an export manager for different quality presets, and guided tips for composition and retouching. Whether you’re preparing images for social media, printing, or a portfolio, PhotoSnap balances speed and control so users can get beautiful results fast.",
+    "size": 48,
+    "reviews": 1420,
+    "ratingAvg": 4.6,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 675 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6R3bqXYC/demo-app-2.webp",
+    "title": "FitLife Tracker",
+    "companyName": "HealthHub",
+    "id": 2,
+    "description": "FitLife Tracker is built to help users design sustainable fitness habits with clear metrics and easy-to-follow plans. It supports customizable workout plans, guided exercise demonstrations, heart-rate and step integration with device sensors, and built-in progress charts that show trends over weeks and months. The app also includes goal nudges, habit streaks, weekly summaries, and gentle reminders to move. Nutrition logging and a water tracker complement training data so users see how diet impacts performance. FitLife prioritizes encouragement and simplicity—workouts can be adjusted by time and difficulty—and includes community challenges and short educational explanations to help users learn why certain exercises matter.",
+    "size": 36,
+    "reviews": 1085,
+    "ratingAvg": 4.3,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 48 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 422 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/W44ckhsy/demo-app-3.webp",
+    "title": "NoteX",
+    "companyName": "CloudSoft",
+    "id": 3,
+    "description": "NoteX is a cross-device note manager designed with both students and professionals in mind. It offers rich-text editing, nested notebooks, instant search, OCR for photographed notes, and a distraction-free writing mode. Users can tag notes, pin frequently used pages, and link related notes for fast reference. Synchronization is end-to-end encrypted, allowing private storage across multiple devices while supporting offline editing with conflict resolution. NoteX also supports simple markdown, to-do checklists inside notes, and export options (PDF, Markdown, plain text). With a thoughtful organization model and powerful search, NoteX aims to make capturing, finding, and refining information effortless for long-term use.",
+    "size": 30,
+    "reviews": 1670,
+    "ratingAvg": 4.7,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 56 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 1046 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KjFsyH60/demo-app-4.webp",
+    "title": "WeatherNow",
+    "companyName": "SkyCast",
+    "id": 4,
+    "description": "WeatherNow delivers precise, localized forecasts with a focus on clear visualizations and actionable alerts. The app offers hourly, daily, and weekly forecasts, radar overlays, severe weather notifications, and an interactive map for tracking precipitation and storm movement. Users can save multiple locations, follow public webcams, and get pollen, UV index, and air quality data to plan outdoor activities responsibly. WeatherNow uses adaptive language so alerts explain risk levels simply and provides home-screen widgets and watch integrations. Its UX prioritizes readability: background visualizations reflect current sky conditions and concise summaries help users know what to expect for the next few hours at a glance.",
+    "size": 26,
+    "reviews": 2225,
+    "ratingAvg": 4.5,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 95 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 770 },
+      { "name": "5 star", "count": 940 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/V0Kh384G/demo-app-5.webp",
+    "title": "MusicWave",
+    "companyName": "TuneBox",
+    "id": 5,
+    "description": "MusicWave provides a modern streaming experience focused on discovery and high-fidelity playback. Curated playlists, personalized daily mixes, and mood-based stations help users find new tracks quickly. Offline downloads, gapless playback, and crossfade options improve listening continuity while user-created playlists can be shared with friends. MusicWave includes lyrics sync, artist radios, smart recommendations driven by listening history, and social features for following favorite artists and friends. The app supports multiple bitrates to reduce data usage when needed and integrates with common casting devices and headphones. MusicWave emphasizes simple controls and discoverability while offering advanced audio settings for enthusiasts.",
+    "size": 58,
+    "reviews": 2680,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 980 },
+      { "name": "5 star", "count": 1210 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Xf9ZxwFn/demo-app-6.webp",
+    "title": "Learnify",
+    "companyName": "EduWorld",
+    "id": 6,
+    "description": "Learnify is an adaptive micro-learning platform that offers short lessons across topics like programming, design, languages, and business. Lessons are bite-sized and include quizzes to reinforce retention, with spaced repetition for key facts. The curriculum adapts to skill level and learning speed, providing suggested learning paths and progress milestones. Learnify supports multimedia lessons (video, text, interactive code snippets) and a community Q&A where learners can discuss difficult concepts. Instructors can publish mini-courses with practical assignments, and the app awards badges and certificates for completed paths. The design emphasizes daily practice and consistent progress rather than long, infrequent study sessions.",
+    "size": 44,
+    "reviews": 1540,
+    "ratingAvg": 4.7,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 44 },
+      { "name": "2 star", "count": 72 },
+      { "name": "3 star", "count": 125 },
+      { "name": "4 star", "count": 457 },
+      { "name": "5 star", "count": 842 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jZZksYc0/demo7.jpg",
+    "title": "BudgetBuddy",
+    "companyName": "MoneyMinds",
+    "id": 7,
+    "description": "BudgetBuddy is a personal finance app that simplifies expense tracking and budgeting for daily life. Users connect accounts or input transactions manually; transactions are categorized automatically with the option to edit categories and add notes. The app provides monthly budget targets, alerts for overspending, and visual breakdowns of where money goes. Helpful features include recurring expense templates, savings goals, and a insights tab that surfaces small changes with big potential savings. BudgetBuddy also includes exportable reports for tax or accounting purposes and a privacy-first stance: user financial data is encrypted and never sold to third parties.",
+    "size": 24,
+    "reviews": 925,
+    "ratingAvg": 4.4,
+    "downloads": 465000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 82 },
+      { "name": "3 star", "count": 152 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 331 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vxDkqzKT/demo8.jpg",
+    "title": "GameBoost",
+    "companyName": "GamerLabs",
+    "id": 8,
+    "description": "GameBoost helps mobile gamers get consistent high performance by managing background tasks, optimizing memory use, and providing one-touch game mode toggles. The app monitors CPU and GPU load, offers temperature alerts, and provides in-app suggestions to close heavy apps or lower graphics settings. It also offers a quick-launch dock for favorite games, a frame-rate monitor, and game-specific profiles that automate connectivity and notification rules. While it can’t change raw hardware limits, GameBoost reduces interruptions and configures the device for smoother gameplay. The app focuses on clear guidance and safety, avoiding aggressive battery-draining modes and providing recommendations for long-term device health.",
+    "size": 50,
+    "reviews": 3380,
+    "ratingAvg": 4.2,
+    "downloads": 1850000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 1030 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hRL2zmbK/demo9.jpg",
+    "title": "QuickTranslate",
+    "companyName": "LinguaSoft",
+    "id": 9,
+    "description": "QuickTranslate offers instant translations with a focus on conversational contexts and practical usage. It supports over 100 languages with offline packs, voice-to-text translation, text recognition from images, and phrasebooks for travel situations. The app provides alternate translations with usage examples, tone indicators (formal vs informal), and clipboard integration for fast copying. Users can build a favorites list of useful phrases and practice pronunciation with speech playback. QuickTranslate is aimed at travelers, students, and professionals who need reliable quick translations with clear examples so they can communicate naturally and confidently.",
+    "size": 34,
+    "reviews": 2180,
+    "ratingAvg": 4.6,
+    "downloads": 1580000,
+    "ratings": [
+      { "name": "1 star", "count": 68 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1052 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ynsmnCPF/demo10.jpg",
+    "title": "TravelMate",
+    "companyName": "WanderApps",
+    "id": 10,
+    "description": "TravelMate is a travel planning and trip management tool designed to simplify every phase of a journey. Users can build itineraries, store tickets and reservations, get local transit directions, and discover experiences curated by local guides. The app integrates offline maps, currency conversion, and a packing checklist that adapts to destination climate and trip length. TravelMate also provides time-zone-aware reminders, shared itineraries for groups, and travel safety tips. Its discovery feed highlights recommended neighborhoods, cafes, and walking routes with short summaries. TravelMate aims to reduce friction before and during trips so travelers can focus on experiences rather than logistics.",
+    "size": 52,
+    "reviews": 1960,
+    "ratingAvg": 4.6,
+    "downloads": 1120000,
+    "ratings": [
+      { "name": "1 star", "count": 82 },
+      { "name": "2 star", "count": 115 },
+      { "name": "3 star", "count": 205 },
+      { "name": "4 star", "count": 710 },
+      { "name": "5 star", "count": 848 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HDX5j9gN/demo11.jpg",
+    "title": "MindRelax",
+    "companyName": "ZenTech",
+    "id": 11,
+    "description": "MindRelax is a wellness app focused on guided meditation, breathing exercises, and sleep support. The app offers sessions ranging from 2 to 60 minutes, covering topics such as stress reduction, focus, sleep preparation, and body scans. Meditations are narrated with calming voices and paired with ambient soundscapes or gentle music. MindRelax also includes a breathing coach, progress streaks, and sleep stories designed to help users wind down. Short daily practices are offered to build a consistent routine, while deeper courses help develop mindfulness skills. The design emphasizes gentle reminders, accessibility, and a non-judgmental approach to mental wellness.",
+    "size": 20,
+    "reviews": 810,
+    "ratingAvg": 4.4,
+    "downloads": 375000,
+    "ratings": [
+      { "name": "1 star", "count": 32 },
+      { "name": "2 star", "count": 52 },
+      { "name": "3 star", "count": 128 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 328 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GpHVgkN/demo12.jpg",
+    "title": "FlashScan",
+    "companyName": "DocuTech",
+    "id": 12,
+    "description": "FlashScan turns your mobile device into a portable scanner with smart document enhancement. Capture receipts, contracts, and whiteboard notes with automatic perspective correction, de-skew, and background removal to produce clean PDF exports. The app uses OCR to make scanned text searchable and copyable and allows multi-page documents with reordering, annotations, and secure sharing. FlashScan includes export options to cloud drives and integrated signing tools for quick approvals. A library feature helps organize scans with tags and folders. The app is optimized for scanning on-the-go, prioritizing speed and accuracy while ensuring privacy controls for sensitive documents.",
+    "size": 28,
+    "reviews": 1360,
+    "ratingAvg": 4.7,
+    "downloads": 790000,
+    "ratings": [
+      { "name": "1 star", "count": 42 },
+      { "name": "2 star", "count": 68 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 440 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HpPbv4KS/demo13.jpg",
+    "title": "BookShelf",
+    "companyName": "ReadMore Inc.",
+    "id": 13,
+    "description": "BookShelf is an e-reading and library management app that supports ebooks, audiobooks, and personal PDFs. The app provides customizable reading settings (font types, sizes, spacing, margins) and a night mode to reduce eye strain. Users can highlight passages, add notes, and export annotations. BookShelf offers curated reading lists, publisher catalogs, and recommendations based on reading history. Audiobook playback supports variable speed and chapter navigation, and sync lets users pick up where they left off across devices. For serious readers, BookShelf includes progress trackers, reading challenges, and a simple book discovery feed to find titles that match personal tastes.",
+    "size": 46,
+    "reviews": 1025,
+    "ratingAvg": 4.5,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 58 },
+      { "name": "2 star", "count": 74 },
+      { "name": "3 star", "count": 148 },
+      { "name": "4 star", "count": 335 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JWDpbkJT/demo14.jpg",
+    "title": "TaskHive",
+    "companyName": "ProductiveApps",
+    "id": 14,
+    "description": "TaskHive is a smart to-do app designed to help users manage daily tasks with minimal friction. It offers quick capture widgets, natural-language input for deadlines (e.g., \"tomorrow 9am\"), project grouping, priority flags, and recurring task templates. The app surfaces today’s top tasks, supports subtasks and attachments, and includes integrations with calendars and email for seamless scheduling. TaskHive also features time-block suggestions and focus timers to encourage productive sessions. Notifications are carefully tuned to remind users without overwhelming them. Overall, TaskHive aims to keep people organized while respecting attention and reducing the cognitive overhead of task management.",
+    "size": 22,
+    "reviews": 2190,
+    "ratingAvg": 4.8,
+    "downloads": 915000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 38 },
+      { "name": "3 star", "count": 105 },
+      { "name": "4 star", "count": 525 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9HDdhWYV/demo15.jpg",
+    "title": "ShopSmart",
+    "companyName": "DealZone",
+    "id": 15,
+    "description": "ShopSmart helps users discover deals and compare prices across online retailers without the need to search multiple sites. The app aggregates product listings, tracks price history, and sends alerts when an item reaches a target price. Users can create watchlists, view curated deal feeds, and access coupon codes applied automatically at checkout where supported. ShopSmart includes product reviews, seller ratings, and an in-app purchase price guarantee feature for eligible items. It also provides a browser extension suggestion for desktop price checks, but the mobile app is focused on quick discovery and straightforward savings for everyday shopping.",
+    "size": 31,
+    "reviews": 3230,
+    "ratingAvg": 4.2,
+    "downloads": 2050000,
+    "ratings": [
+      { "name": "1 star", "count": 305 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 640 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 975 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N6tdY9wV/demo16.jpg",
+    "title": "CryptoWatch",
+    "companyName": "FinTechPro",
+    "id": 16,
+    "description": "CryptoWatch is a real-time cryptocurrency tracking app for traders and long-term investors. It provides live prices, candlestick charts with multiple timeframes, alerts for price changes and volume spikes, and portfolio tracking with profit/loss reporting. The app aggregates data from leading exchanges and provides order-book snapshots, market cap rankings, and news headlines relevant to selected coins. CryptoWatch also offers educational explainers on on-chain metrics and risk management. Security features include optional biometric access and local encryption for API keys. The app targets users who want clear market overviews and customizable notifications without overwhelming complexity.",
+    "size": 38,
+    "reviews": 1785,
+    "ratingAvg": 4.2,
+    "downloads": 895000,
+    "ratings": [
+      { "name": "1 star", "count": 125 },
+      { "name": "2 star", "count": 185 },
+      { "name": "3 star", "count": 305 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGfPCdZw/demo17.jpg",
+    "title": "CleanMaster",
+    "companyName": "DeviceCare",
+    "id": 17,
+    "description": "CleanMaster is an optimization utility focused on reclaiming storage, identifying large files, and suggesting unused apps for removal. The app scans media folders, caches, and temporary files to offer a safe cleanup process with previews before deletion. It also tracks storage trends and provides simple tips to manage backups and offload large media. CleanMaster includes a lightweight memory cleaner and startup app manager to reduce unnecessary background processes. Privacy is emphasized: the app requests only necessary permissions and explains why each one is required. CleanMaster aims to be a helpful maintenance tool rather than an intrusive background service.",
+    "size": 34,
+    "reviews": 2710,
+    "ratingAvg": 4.0,
+    "downloads": 3150000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 710 },
+      { "name": "4 star", "count": 715 },
+      { "name": "5 star", "count": 555 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5X9wPRMq/demo18.jpg",
+    "title": "VoiceNote",
+    "companyName": "AudioFlow",
+    "id": 18,
+    "description": "VoiceNote is a fast, reliable voice recorder for capturing interviews, lectures, and quick ideas. It offers high-quality audio recording, trimming tools, and automatic transcription options for supported languages. VoiceNote organizes recordings by tags and folders, supports cloud backup, and allows exporting in common audio formats. Playback speed controls and markers make it easy to find important moments, while privacy settings permit local-only storage. The app is designed to minimize interruptions with a low-power recording mode and simple UX for starting and saving recordings quickly. VoiceNote is suitable for students, journalists, and professionals who need dependable, handy audio capture.",
+    "size": 18,
+    "reviews": 560,
+    "ratingAvg": 4.6,
+    "downloads": 215000,
+    "ratings": [
+      { "name": "1 star", "count": 16 },
+      { "name": "2 star", "count": 26 },
+      { "name": "3 star", "count": 84 },
+      { "name": "4 star", "count": 154 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yBy6gRF5/demo19.jpg",
+    "title": "EduKids",
+    "companyName": "KidsTech",
+    "id": 19,
+    "description": "EduKids is an educational app full of interactive games and exercises for children aged 3–8, focusing on literacy, numeracy, and basic science concepts. The content is designed by educators, using playful animations, positive reinforcement, and short activities to match young attention spans. Parents can monitor progress with a summarized dashboard and set time limits or learning goals. EduKids offers offline play, child-safe navigation, and adaptive difficulty so children are always challenged but not frustrated. The app emphasizes curiosity and encourages creativity through drawing activities and simple puzzles that teach problem-solving and early critical thinking skills.",
+    "size": 54,
+    "reviews": 885,
+    "ratingAvg": 4.7,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 36 },
+      { "name": "3 star", "count": 85 },
+      { "name": "4 star", "count": 272 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Pv61Gsd1/demo20.jpg",
+    "title": "MapGo",
+    "companyName": "RouteTech",
+    "id": 20,
+    "description": "MapGo provides offline maps, turn-by-turn navigation, and route planning for driving, cycling, and walking. The app enables users to download region maps to stay navigable when offline, and it caches recent map tiles to reduce data usage. MapGo includes points-of-interest, user-saved locations, and simple route optimization that suggests alternative paths when traffic is heavy. The interface focuses on large, readable directions and minimal interaction while driving. MapGo also integrates commute summaries and arrival-time sharing. The goal of the app is to deliver practical navigation features without unnecessary clutter, helping users reach destinations reliably even without constant internet.",
+    "size": 62,
+    "reviews": 5065,
+    "ratingAvg": 4.4,
+    "downloads": 5050000,
+    "ratings": [
+      { "name": "1 star", "count": 395 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 920 },
+      { "name": "4 star", "count": 1580 },
+      { "name": "5 star", "count": 1560 }
+    ]
+  }
+]
