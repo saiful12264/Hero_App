@@ -8,7 +8,7 @@ const Treding = () => {
   const apps = app.slice(0, 8);
   console.log(app, error, loading);
   return (
-    <div className="bg-gray-200 p-20 ">
+    <div className="bg-gray-200 p-4 md:p-8  lg:p-20 ">
       <div>
         <h1
           className="text-[rgba(0,25,49,1)] 

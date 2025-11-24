@@ -1,11 +1,77 @@
-import React from 'react';
+import React, { useState } from "react";
+import useApp from "../Hook/useApp";
+import App_card from "../Compoent/App_card";
 
 const Apps = () => {
-    return (
-        <div>
-            <h1>Apps</h1>
-        </div>
-    );
+  const [search, setSearch] = useState("");
+  const { app, error, loading } = useApp();
+  const apps = app.slice(0, 20) || {};
+
+  const searchAppStr = search.trim().toLocaleLowerCase();
+//   console.log(searchAppStr);
+//   apps.forEach(ap =>{
+//     console.log(ap.title);
+//   })
+  const appItems = searchAppStr
+    ? apps.filter((ap) => ap.title.toLocaleLowerCase().includes(searchAppStr))
+    : apps;
+
+  return (
+    <div className="bg-gray-200 p-6 md:p-9 lg:p-20 ">
+      <div>
+        <h1
+          className="text-[rgba(0,25,49,1)]
+       font-inter
+       text-[48px]
+       font-bold
+       leading-[58px]
+       tracking-[0]
+       text-center
+       capitalize"
+        >
+          Our All Applications
+        </h1>
+        <p
+          className="text-[rgba(98,115,130,1)]
+       font-inter
+       text-[20px]
+       font-normal
+       leading-8
+       tracking-[0]
+       text-center mt-4 mb-10"
+        >
+          Explore All Apps on the Market developed by us. We code for Millions
+        </p>
+      </div>
+
+      <div className="flex justify-between items-center">
+        <h1
+          className="text-[rgba(0,25,49,1)]
+       font-inter
+       text-[24px]
+       font-semibold
+       leading-8
+       tracking-[0]
+       text-left"
+        >
+          ({appItems.length}) Apps Found
+        </h1>
+        <label className="input  ">
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            type="search"
+            placeholder="Search"
+          />
+        </label>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
+        {appItems.map((ap) => (
+          <App_card key={ap.id} ap={ap}></App_card>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Apps;
