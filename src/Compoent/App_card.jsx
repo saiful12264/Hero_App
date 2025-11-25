@@ -1,10 +1,13 @@
 import { ArrowDownToLine, Star } from "lucide-react";
 import React from "react";
+import { NavLink } from "react-router";
 
 const App_card = ({ ap }) => {
-  const { image, title, downloads, ratingAvg } = ap;
+  const { image, title, downloads, ratingAvg,id } = ap;
   return (
-    <div className="rounded-lg bg-[rgba(255,255,255,1)] p-4 shadow-sm hover:scale-105 transition ease-in-out">
+   <div>
+     <NavLink to={`/apps/${id}`}>
+         <div className="rounded-lg bg-[rgba(255,255,255,1)] p-4 shadow-sm hover:scale-105 transition ease-in-out">
       <div className="flex items-center justify-center">
         <img
         className="rounded-lg w-[316px] h-[316px] object-cover overflow-hidden "
@@ -54,6 +57,8 @@ const App_card = ({ ap }) => {
         </button>
       </div>
     </div>
+     </NavLink>
+   </div>
   );
 };
 

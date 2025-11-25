@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useApp from "../Hook/useApp";
 import App_card from "../Compoent/App_card";
+import { NavLink } from "react-router";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
@@ -8,10 +9,10 @@ const Apps = () => {
   const apps = app.slice(0, 20) || {};
 
   const searchAppStr = search.trim().toLocaleLowerCase();
-//   console.log(searchAppStr);
-//   apps.forEach(ap =>{
-//     console.log(ap.title);
-//   })
+  //   console.log(searchAppStr);
+  //   apps.forEach(ap =>{
+  //     console.log(ap.title);
+  //   })
   const appItems = searchAppStr
     ? apps.filter((ap) => ap.title.toLocaleLowerCase().includes(searchAppStr))
     : apps;
@@ -65,8 +66,53 @@ const Apps = () => {
           />
         </label>
       </div>
+
+       {
+            (appItems.length===0 ) && <div className="h-86">
+        
+       
+            <h1
+          className="text-gray-400
+       font-inter
+       text-[48px]
+       font-bold
+       leading-[58px]
+       tracking-[0]
+       text-center
+       capitalize
+        p-30
+       
+       "
+        >
+          No Apps Found
+        </h1>
+        
+
+        <div className="flex items-center justify-center -mt-33 p-10">
+          <NavLink
+           onClick={()=>setSearch("")}
+            className="text-white
+       font-inter
+       text-[16px]
+       font-semibold
+        rounded-lg
+       bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] px-6 py-6 btn "
+          >
+            Show All Apps
+          </NavLink>
+        </div>
+      </div>
+        }
+      
+
+      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
-        {appItems.map((ap) => (
+        {
+
+        
+        
+        appItems.map((ap) => (
           <App_card key={ap.id} ap={ap}></App_card>
         ))}
       </div>

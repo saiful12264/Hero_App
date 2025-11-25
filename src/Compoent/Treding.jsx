@@ -54,7 +54,7 @@ const Treding = () => {
        capitalize rounded-lg
        bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] px-6 py-6 btn "
         >
-          Show All
+          Show All Apps
         </NavLink>
       </div>
     </div>

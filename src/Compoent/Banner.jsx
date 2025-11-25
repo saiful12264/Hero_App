@@ -43,7 +43,7 @@ const Banner = () => {
         <NavLink
           to="https://play.google.com/store/apps?hl=en"
           className={`  text-[rgba(0,25,49,1)] font-inter text-[20px]font-semibold text-center
-           capitalize flex items-center gap-1 btn btn-outline border border-[rgba(210,210,210,1)] rounded-sm box-border px-6 py-3`}
+           capitalize flex items-center gap-1 btn btn-outline border border-[rgba(210,210,210,1)] rounded-sm box-border px-6 py-3 bg-white`}
         >
           <BiLogoPlayStore className="" />
           <span> Google Play</span>
@@ -51,7 +51,7 @@ const Banner = () => {
         <NavLink
           to="https://www.apple.com/app-store/"
           className={`  text-[rgba(0,25,49,1)] font-inter text-[20px] font-semibold text-center
-          capitalize flex items-center gap-1 btn btn-outline border border-[rgba(210,210,210,1)] rounded-sm box-border px-6 py-3`}
+          capitalize flex items-center gap-1 btn btn-outline border border-[rgba(210,210,210,1)] rounded-sm box-border px-6 py-3 bg-white`}
         >
           <IoIosAppstore />
           <span> App Store</span>
