@@ -1,12 +1,12 @@
 import React from "react";
-import useApp from "../Hook/useApp";
+
 import App_card from "./App_card";
 import { NavLink } from "react-router";
 
-const Treding = () => {
-  const { app, error, loading } = useApp();
+const Treding = ({app}) => {
+
   const apps = app.slice(0, 8);
-  console.log(app, error, loading);
+
   return (
     <div className="bg-gray-200 p-4 md:p-8  lg:p-20 ">
       <div>

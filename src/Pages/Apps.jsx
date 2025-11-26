@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import useApp from "../Hook/useApp";
 import App_card from "../Compoent/App_card";
 import { NavLink } from "react-router";
+import GlowingCubeLoader from "../Compoent/GlowingCubeLoader";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
@@ -18,7 +19,10 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="bg-gray-200 p-6 md:p-9 lg:p-20 ">
+     <div>
+       {
+         loading ? <GlowingCubeLoader></GlowingCubeLoader> :
+           <div className="bg-gray-200 p-6 md:p-9 lg:p-20 ">
       <div>
         <h1
           className="text-[rgba(0,25,49,1)]
@@ -117,6 +121,9 @@ const Apps = () => {
         ))}
       </div>
     </div>
+       }
+    
+     </div>
   );
 };
 

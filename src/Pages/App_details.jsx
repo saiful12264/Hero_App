@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useFetcher, useParams } from "react-router";
+import { NavLink, useParams } from "react-router";
 import useApp from "../Hook/useApp";
 import { Download, Star, ThumbsUp } from "lucide-react";
 import {
@@ -14,28 +14,46 @@ import {
 } from "recharts";
 import { getData, saveData } from "../Utility/localStorage";
 import App_error from "./App_error";
+import { toast } from "react-toastify";
+
+// start main function here
 
 const App_details = () => {
   const { id } = useParams();
 
-  const [local, setLocal] = useState([]);
-
-  const [isInstall, setIsInstall] = useState(false);
-
+  // Error page handling state
   const [erPage, setErPage] = useState(false);
+
+  // load data from json using custom hook
 
   const { app, loading, error } = useApp() || {};
 
+  // get one app only
+
   const singleApp = app.find((ap) => ap.id === Number(id)) || {};
+
+  // chart
 
   const chartdata = [...(singleApp?.ratings || [])];
 
   const data = chartdata.reverse();
 
+  // Install btn functionality
+
+
+  const [isInstall, setIsInstall] = useState(false);
+
   const handleInstall = () => {
     saveData(singleApp);
     setIsInstall(true);
+    toast.success("Installed Successfully!", {
+      position: "top-center",
+      theme: "light",
+    });
   };
+
+
+// for install btn text toggling and error page toggling
 
   useEffect(() => {
     const stored = getData();
@@ -50,7 +68,7 @@ const App_details = () => {
     }
   }, [singleApp]);
 
-  console.log(erPage);
+
 
   return (
     <div>
@@ -187,6 +205,7 @@ const App_details = () => {
        capitalize rounded-lg 
        bg-[rgba(0,211,144,1)] px-5
        py-6 btn mt-7 "
+                  disabled={isInstall}
                 >
                   {isInstall
                     ? "Installed"
