@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "deploy": "npm run build && cd dist && cp index.html 200.html && cd ../ && surge dist",
     "preview": "vite preview"
   },
   "dependencies": {

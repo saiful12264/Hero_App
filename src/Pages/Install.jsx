@@ -110,7 +110,8 @@ const Install = () => {
             <h1
           className="text-gray-400
        font-inter
-       text-[48px]
+       text-[30px]
+       lg:text-[48px]
        font-bold
        leading-[58px]
        tracking-[0]

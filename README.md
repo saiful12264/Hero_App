@@ -1,16 +1,29 @@
-# React + Vite
+# Heoro.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Heoro.IO is a modern, responsive, and user-friendly web application built with React.
+- It focuses on clean UI, smooth performance, and simple component-based architecture.
+- The project is designed to be scalable, easy to maintain, and beginner-friendly.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clean and responsive UI
 
-## React Compiler
+2. Component-based structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Fast rendering with React
 
-## Expanding the ESLint configuration
+4. Organized and scalable codebase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. Easy to customize
+
+## 🛠️ Technologies Used
+
+- HTML – Base structure
+
+- CSS – Styling and layout
+
+- React – Frontend library for building UI
+
+## Live Link
+
+[Hero.IO](hero_app_saiful_12264.surge.sh)

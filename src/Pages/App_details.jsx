@@ -40,7 +40,6 @@ const App_details = () => {
 
   // Install btn functionality
 
-
   const [isInstall, setIsInstall] = useState(false);
 
   const handleInstall = () => {
@@ -52,8 +51,7 @@ const App_details = () => {
     });
   };
 
-
-// for install btn text toggling and error page toggling
+  // for install btn text toggling and error page toggling
 
   useEffect(() => {
     const stored = getData();
@@ -67,8 +65,6 @@ const App_details = () => {
       }
     }
   }, [singleApp]);
-
-
 
   return (
     <div>
@@ -124,12 +120,13 @@ const App_details = () => {
                   <h1
                     className="text-[rgba(0,25,49,1)]
        font-inter
-       text-[40px]
+       text-[30px]
+       lg:text-[40px]
        font-extrabold
        leading-10
        tracking-[0]
        text-left
-       capitalize"
+       capitalize mt-8"
                   >
                     {singleApp.downloads}
                   </h1>
@@ -152,7 +149,8 @@ const App_details = () => {
                   <h1
                     className="text-[rgba(0,25,49,1)]
        font-inter
-       text-[40px]
+         text-[30px]
+       lg:text-[40px]
        font-extrabold
        leading-10
        tracking-[0]
@@ -180,7 +178,8 @@ const App_details = () => {
                   <h1
                     className="text-[rgba(0,25,49,1)]
        font-inter
-       text-[40px]
+         text-[30px]
+       lg:text-[40px]
        font-extrabold
        leading-10
        tracking-[0]

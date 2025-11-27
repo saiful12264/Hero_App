@@ -18,7 +18,7 @@ const Install_app = ({ int }) => {
     }
   return (
     <div>
-      <div className="rounded-lg bg-white p-4 my-4 flex items-center gap-4">
+      <div className="rounded-lg bg-white p-4 my-4  lg:flex items-center gap-4">
         <img
           src={int.image}
           className="w-20 h-20 object-cover overflow-hidden"
@@ -26,7 +26,7 @@ const Install_app = ({ int }) => {
         />
 
         <div className="flex-1">
-          <div className="flex justify-between items-center">
+          <div className=" lg:flex justify-between items-center">
             <div>
               <h1
                 className="text-[rgba(0,25,49,1)]

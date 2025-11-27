@@ -2,40 +2,45 @@ import { createBrowserRouter } from "react-router";
 import Mainlayout from "../Layout/Mainlayout";
 
 import Error from "../Pages/Error";
-import Home from "../Pages/Home";
-import Apps from "../Pages/Apps";
-import Install from "../Pages/Install";
-import App_details from "../Pages/App_details";
 import GlowingCubeLoader from "../Compoent/GlowingCubeLoader";
 
-
- const router = createBrowserRouter([
+const router = createBrowserRouter([
   {
-    path:'/',
-    Component:Mainlayout,
-    errorElement:<Error></Error>,
-    hydrateFallbackElement:<GlowingCubeLoader></GlowingCubeLoader>,
-    children:[
-        {
-            index:true,
-            Component:Home
+    path: "/",
+    Component: Mainlayout,
+    errorElement: <Error></Error>,
+    hydrateFallbackElement: <GlowingCubeLoader></GlowingCubeLoader>,
+    children: [
+      {
+        index: true,
+        lazy: async () => {
+          const module = await import("../Pages/Home");
+          return { Component: module.default };
         },
-        {
-            path:'/apps',
-            Component:Apps
+      },
+      {
+        path: "/apps",
+        lazy: async () => {
+          const module = await import("../Pages/Apps");
+          return { Component: module.default };
         },
-        {
-            path:"/install",
-            Component:Install
+      },
+      {
+        path: "/install",
+        lazy: async () => {
+          const module = await import("../Pages/Install");
+          return { Component: module.default };
         },
-        {
-            path:"/apps/:id",
-            Component:App_details
-        }
-    ]
-
-   
-  }
-])
+      },
+      {
+        path: "/apps/:id",
+        lazy: async () => {
+          const module = await import("../Pages/App_details");
+          return { Component: module.default };
+        },
+      },
+    ],
+  },
+]);
 
 export default router;
